@@ -1,0 +1,158 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 128px;
+    align-items: center;
+
+}
+.nav button{
+    width: 189px;
+    height: 47px;
+    color: #DE2E54;
+    border: 2px solid#DE2E54;
+    border-radius: 8px;
+}
+.nav img{
+    display: flex;
+}
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 168px;
+}
+.nav ul :hover{
+    transition: all 2s;
+    color: red;
+}
+.nav button:hover{
+    transition: all 1s;
+    color: blue;
+    background-color: rgb(0, 255, 51);
+}
+.fon{
+    width: 1600px;
+    height: 560px;
+    background-image: url(image\ 4\ \(1\).png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.fon h1{
+    color: #fff;
+
+}
+.mars button{
+    color: #fff;
+    background-color: #DE2E54CC;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    margin: 30px;
+}
+    .mars button:hover{
+    transition: all 1s;
+    color: blue;
+    background-color: rgb(255, 47, 224);
+}
+.uka {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .aka h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 40px;
+}
+  
+  .uka {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .uka img {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+  }
+  
+  .mol {
+    width: 600px;
+  }
+  
+  .mol h2 {
+    font-size: 28px;
+  }
+  
+  .mol p {
+    font-size: 18px;
+    color: #555;
+  }
+  .asil{
+    text-align: center;
+    display: flex;
+    gap: 68px;
+    margin: 100px;
+  }
+.kalish{
+  background-color: aqua;
+  width: 1500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.kal{
+  background-color: white;
+  width: 540px;
+  height: 331px;
+}
+.kal input{
+  width: 460px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+}
+.kalish  h1{
+  text-align: center;
+}
+.kal button{
+  width: 460px;
+  height: 39px;
+  border-radius: 10px;
+  background-color: #38CC8B;
+  color: #fff;
+}
+.ansormed{
+  background-color: black;
+  color: #fff;
+}
+.ansormed ul li:hover{
+  transition: all 1s;
+  color: #482ede;
+}
+.gan ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 128px;
+  align-items: center;
+}
+
+.gan {
+display: flex;
+justify-content: space-between;
+}
